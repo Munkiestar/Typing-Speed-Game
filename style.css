@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  /* letter-spacing: 2px; */
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  margin-top: 50px;
+  padding: 50px 50px;
+  background-color: #186980;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.origin-text {
+  margin-top: 20px;
+  padding: 20px 20px;
+  background-color: #61667c;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-wrapper {
+  /* width: 100%; */
+  margin: 20px auto;
+  border: 10px solid #118789;
+  border-radius: 10px;
+}
+
+.timer-wrapper {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #e7ecef;
+}
+
+textarea {
+  width: 100%;
+  font-size: 24px;
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+
+p {
+  width: 500px;
+  font-size: 18px;
+
+  margin: 0 auto;
+}
+
+.timer {
+  width: 250px;
+  font-size: 52px;
+  font-weight: bold;
+  color: #444; /* // timer color */
+  margin-left: 45px;
+  align-items: center;
+  padding: 8px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 52px;
+  font-weight: bold;
+}
